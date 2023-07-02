@@ -1,0 +1,17 @@
+html{
+    background-color: black;
+    font-size: 22px;
+    color: antiquewhite;
+}
+
+a{
+    color: antiquewhite;
+}
+
+a:visited{
+    color: chartreuse;
+}
+
+a:hover, a:active{
+    color: aqua;
+}
