@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <h1>Odin Recipes</h1>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipelist.html">Recipelist</a></li>
+                <li><a href="openhours.html">Open Hours</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <img src="img/chef-homepage.jpeg" alt="chef pictures">
+            <h2>Call for reservation</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                <br>Repellat, distinctio ipsum quisquam voluptatem in nihil eum porro hic, 
+                <br>eligendi esse similique animi adipisci sed tempora voluptas eaque provident voluptatibus dignissimos!
+            </p>
+        </section>
+        <section class="form-contact">
+            <form action="https://httpbin.org/get" method="post">
+            <fieldset>
+            <legend>Contact Us</legend>
+            <label for="firstName">First Name : </label><br>
+            <input type="text" id="firstName" placeholder="Nama Depan"><br>
+            <label for="lastName">Last Name : </label><br>
+            <input type="text" name="lastName" id="lastName" placeholder="Nama Belakang"><br>
+            <label for="totalPerson">Berapa orang : </label><br>
+            <input type="number" name="totalPerson" id="totalPerson" min="1" max="4"><br>
+            <label for="pilihanPaket">Pilih paket : </label><br>
+            <select name="pilihanPaket" id="pilihanPaket">
+                <option value="paketVIP">Paket VIP </option>
+                <option value="PaketSuper">Paket Super</option>
+                <option value="PaketBiasa">Paet Biasa</option>
+            </select><br>
+            <label for="tambahan">Keterangan Tambahan : </label><br>
+            <textarea name="tambahan" id="tambahan" cols="30" rows="10"></textarea><br>
+            <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Send</button>
+            <button type="reset">RESET</button>
+        </form>
+        </fieldset>
+        </section>
+    </main>
+</body>
+</html>

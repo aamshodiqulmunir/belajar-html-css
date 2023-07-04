@@ -22,3 +22,62 @@ table, td, tr, th, caption {
     font-family: 'Courier New', Courier, monospace;
     border-collapse: collapse;
 }
+
+.form-contact {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    line-height: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    align-content: center;
+    margin: auto;
+}
+
+input[type=text], input[type=number], select, textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  button[type=submit]{
+    padding: 1.5rem;
+  }
+
+
+  .nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .nav-bar li {
+    float: left;
+  }
+  
+  .nav-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .nav-bar li a:hover {
+    background-color: #111;
+  }
+
+  .recipe-list-display img{
+    width: 300px;
+    height: auto;
+  }
+
+  .recipe-list-display{
+    align-content: center;
+  }
+ 
