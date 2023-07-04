@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- script dibawah getting picked up sama search engine -->
-    <meta name="Author" content="Aam Shodiqul Munir" />
-    <meta name="Description" content="Belajar HTML pertama kali" />
-    <title>Belajar HTML</title>
-    <!--  untuk fav icon -->
-    <link rel="icon" href="#" type="image/x-icon" />
-    <!-- script diatas untuk fav icon -->
-    <!-- script dibawah untuk styling css dan ref ke style-->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- script dibawah getting picked up sama search engine -->
+  <meta name="Author" content="Aam Shodiqul Munir" />
+  <meta name="Description" content="Belajar HTML pertama kali" />
+  <title>Belajar HTML</title>
+  <!--  untuk fav icon -->
+  <link rel="icon" href="#" type="image/x-icon" />
+  <!-- script diatas untuk fav icon -->
+  <!-- script dibawah untuk styling css dan ref ke style-->
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+
+<body>
+  <header id="html">
     <h1>Odin recipes</h1>
-    <hr />
+
     <h2>Recipe list</h2>
     <nav>
       <ul>
@@ -23,9 +26,19 @@
         <li><a href="#makaroni-salad">American potato salad</a></li>
       </ul>
     </nav>
-    <hr />
-    <section id="american-salad">
+  </header>
+  <hr />
+  <main>
+    <img src="img/chef-homepage.jpeg" alt="chef-picture">
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim quasi omnis,
+      <br>modi quas in amet velit, consequatur natus eum sapiente
+      <br>rerum accusamus ea eius doloribus culpa quis illum magnam tempora.
+    </p>
+    <hr>
+    <article id="american-salad">
       <h2>American Potato Salad</h2>
+      <img src="img/american-salad.jpg" alt="Photos-of-american-salad">
       <h3>Description</h3>
       <p>
         Just a good old fashioned,down home potato salad recipe that brings back
@@ -33,6 +46,20 @@
         it is or make it your own by <br />
         additional ingredients of your choice.
       </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Ingredients</th>
+            <th>Cooking time</th>
+            <th>Portion</th>
+          </tr>
+        </thead>
+        <tr>
+          <td>9 ingredients</td>
+          <td>45 minutes</td>
+          <td>2 people</td>
+        </tr>
+      </table>
       <h3>Ingredients</h3>
       <ul>
         <li>5 pounds red potatoes</li>
@@ -69,17 +96,21 @@
           refrigerate for several hours or overnight.
         </p>
       </ol>
-    </section>
+    </article>
     <hr>
-    <section id="makaroni-salad">
-        <h2>Makaroni salad</h2>
-    <h3>Description</h3>
-    <p>Berbicara mengenai salad pasti identik dengan sajian segar berbahan sayuran di dalamnya.
-    <br> Namun, salad kali ini justru berbeda karena menggunakan makaroni di dalamnya.
-    <br>Makaroni ini juga dipadukan dengan beberapa bahan pendukung dan saus dressing. Penasaran dengan kelezatannya? Cicipi, yu</p>
-    </div>
-    <h3>Ingredients</h3>
-    <ul>
+    <article id="makaroni-salad">
+      <img src="img/potato-salad.jpg" alt="Photos-of-potato-salad">
+      <h2>Makaroni salad</h2>
+      <h3>Description</h3>
+      <p>Berbicara mengenai salad pasti identik dengan sajian segar berbahan sayuran di dalamnya.
+        <br> Namun, salad kali ini justru berbeda karena menggunakan makaroni di dalamnya.
+        <br>Makaroni ini juga dipadukan dengan beberapa bahan pendukung dan saus dressing. Penasaran dengan
+        kelezatannya?
+        Cicipi, yu
+      </p>
+      </div>
+      <h3>Ingredients</h3>
+      <ul>
         <li>3 cups elbow macaroni</li>
         <li>1 ½ cups mayonnaise</li>
         <li>⅓ large onion, minced</li>
@@ -90,28 +121,59 @@
         <li>¾ teaspoon celery seed</li>
         <li>½ teaspoon salt</li>
         <li>3 hard-cooked eggs, chopped</li>
-    </ul>
-    <h3>Step by Step</h3>
-    <ol>
+      </ul>
+      <h3>Step by Step</h3>
+      <ol>
         <li>Step 1</li>
         <p>
-            Bring a large pot of lightly salted water to a boil. Cook macaroni in the boiling water, 
-            <br> occasionally until cooked through but firm to the bite, about 8 minutes. Drain.
+          Bring a large pot of lightly salted water to a boil. Cook macaroni in the boiling water,
+          <br> occasionally until cooked through but firm to the bite, about 8 minutes. Drain.
         </p>
         <li>Step 2</li>
         <p>
-            Rinse macaroni in cold water until cool; drain.
+          Rinse macaroni in cold water until cool; drain.
         </p>
         <li>Step 3</li>
         <p>
-            Stir mayonnaise, onion, parsley, mustard, rice vinegar, sugar, celery seed, 
-            <br>and salt together in a bowl. Add macaroni and eggs and stir to coat.
+          Stir mayonnaise, onion, parsley, mustard, rice vinegar, sugar, celery seed,
+          <br>and salt together in a bowl. Add macaroni and eggs and stir to coat.
         </p>
         <li>Step 4</li>
         <p>
-            Chill in the refrigerator for 30 minutes before serving.
+          Chill in the refrigerator for 30 minutes before serving.
         </p>
-    </ol>
-    </section>
-  </body>
+      </ol>
+    </article>
+    <hr>
+    <article>
+      <h2>Contact me!</h2>
+      <p>Id like to hear from you!!!</p>
+      <form action="https://httpbin.org/get" method="post">
+        <p>
+          <label for="firstName">First Name : </label>
+          <input type="text" name="firstName" id="firstName" placeholder="Nama Depan" required>
+        </p>
+        <p>
+          <label for="lastName">last name : </label>
+          <input type="text" name="lastName" id="lastName" placeholder="Nama belakang" required>
+        </p>
+        <p>
+          <label for="Address">Alamat : </label>
+          <input type="text" name="Address" id="Address" placeholder="alamat" required>
+        </p>
+        <p>
+          <label for="password">password : </label>
+          <input type="password" name="password" id="password" placeholder="password" required>
+        </p>
+        <button type="submit"> Submit </button>
+        <button type="submit" formaction="https://httpbin.org/post" formmethod="post"> post </button>
+        <button type="reset"> Reset </button>
+      </form>
+    </article>
+  </main>
+  <footer>
+    <a href="#html"><strong>Back to top</strong></a>
+  </footer>
+</body>
+
 </html>
